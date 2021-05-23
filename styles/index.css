@@ -72,7 +72,7 @@
 }
 
 .wrap {
-     background: rgba(0, 0, 0, 0.5) url(/assets/2.jpg) no-repeat;
+     background: rgba(0, 0, 0, 0.5) url(./assets/2.jpg) no-repeat;
      background-position: center;
      background-size: cover;
      overflow: hidden;
