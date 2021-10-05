@@ -1,0 +1,48 @@
+header{
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.5));
+  z-index: 1;
+}
+nav{
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+}
+header .logo {
+  height: 100%;
+  width: 15%;
+  font-size: 45px;
+  color: brown;
+  font-family: 'Pacifico', cursive;
+
+}
+.nav-list{
+  height: 100%;
+  width: 65%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list li a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Patrick Hand SC', cursive;
+}
+.nav-list li a:hover{
+  color: brown;
+}

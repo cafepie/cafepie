@@ -1,0 +1,23 @@
+footer {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    bottom: 0;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    z-index: 1;
+}
+footer h3{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    font-size: 15px;
+}
+footer h4{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    font-size: 13px;
+}

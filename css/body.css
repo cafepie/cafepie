@@ -1,0 +1,43 @@
+main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(../assets/body.jpg) no-repeat fixed center;
+    background-size: cover;
+    background-clip: border-box;
+}
+main section{
+    position: absolute;
+    height: 80%;
+    width: 90%;
+    flex-direction: column;
+    color: #fff;
+}
+main section h2 {
+    position: absolute;
+    top: 5%;
+    font-size: 80px;
+    font-family: 'Arizonia', cursive;
+}
+main section p {
+    position: absolute;
+    bottom: 25%;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+main section .btn{
+    position: absolute;
+    bottom: 10%;
+    border-radius: 50px;
+    background-color: brown;
+    cursor: pointer;
+}
+main section .btn a{
+    display: inline-block;
+    padding: 15px 45px;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+}

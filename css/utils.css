@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Arizonia&family=Nova+Round&family=Overlock:ital@1&family=Pacifico&family=Patrick+Hand+SC&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
